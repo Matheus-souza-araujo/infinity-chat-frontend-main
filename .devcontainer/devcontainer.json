@@ -1,0 +1,31 @@
+{
+	"name": "infinity-base-chat",
+	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"PKief.material-icon-theme",
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"streetsidesoftware.code-spell-checker",
+				"streetsidesoftware.code-spell-checker-portuguese-brazilian",
+				"eamodio.gitlens",
+				"IronGeek.vscode-env",
+				"styled-components.vscode-styled-components",
+				"christian-kohler.path-intellisense",
+				"yoavbls.pretty-ts-errors",
+				"vivaxy.vscode-conventional-commits",
+				"ms-vsliveshare.vsliveshare",
+				"Orta.vscode-jest",
+				"SonarSource.sonarlint-vscode"
+			],
+			"settings": {
+				"workbench.iconTheme": "material-icon-theme",
+				"files.autoSave": "afterDelay",
+				"editor.defaultFormatter": "esbenp.prettier-vscode",
+				"cSpell.language": "en,pt,pt_BR",
+				"jest.autoRun": {}
+			}
+		}
+	}
+}

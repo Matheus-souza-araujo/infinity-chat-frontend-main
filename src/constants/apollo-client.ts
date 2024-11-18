@@ -10,7 +10,7 @@ const logoutLink = onError((error) => {
     (error.graphQLErrors[0].extensions.originalError as any).statusCode === 401
   ) {
     if (!excludedRoutes.includes(window.location.pathname)) {
-      onLogout()
+      onLogout();
     }
   }
 });
@@ -20,11 +20,6 @@ const httpLink = new HttpLink({ uri: `${API_URL}/graphql` });
 const client = new ApolloClient({
   cache: new InMemoryCache(),
   link: logoutLink.concat(httpLink),
-  defaultOptions: {
-    watchQuery: {
-      fetchPolicy: 'cache-and-network'
-    }
-  }
 });
 
 export default client;

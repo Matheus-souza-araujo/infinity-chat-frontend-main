@@ -54,10 +54,13 @@ const MobileNavigation = ({ pages }: MobileNavigationProps) => {
         }}
       >
         {pages.map((page) => (
-          <MenuItem key={page.title} onClick={() => {
-            router.navigate(page.path);
-            handleCloseNavMenu();
-          }}>
+          <MenuItem
+            key={page.title}
+            onClick={() => {
+              router.navigate(page.path);
+              handleCloseNavMenu();
+            }}
+          >
             <Typography textAlign="center">{page.title}</Typography>
           </MenuItem>
         ))}

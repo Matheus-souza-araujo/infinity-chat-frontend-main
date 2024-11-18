@@ -23,7 +23,7 @@ const MobileBranding = () => {
           textDecoration: "none",
         }}
       >
-        CHAT
+        CHATTER
       </Typography>
     </>
   );

@@ -1,7 +1,7 @@
 import { Button, Stack, TextField } from "@mui/material";
 import { useEffect, useState } from "react";
 import { useGetMe } from "../../hooks/useGetMe";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router";
 
 interface AuthProps {
   submitLabel: string;

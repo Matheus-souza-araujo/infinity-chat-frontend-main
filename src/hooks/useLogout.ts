@@ -6,7 +6,7 @@ const useLogout = () => {
       method: "POST",
     });
     if (!res.ok) {
-      throw new Error("Error logging out.")
+      throw new Error("Error logging out.");
     }
   };
 

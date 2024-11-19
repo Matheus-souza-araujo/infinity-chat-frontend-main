@@ -1,5 +1,5 @@
 {
-  "name": "chatter-ui",
+  "name": "infinity-chat-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

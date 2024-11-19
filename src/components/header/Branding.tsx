@@ -22,7 +22,7 @@ const Branding = () => {
           textDecoration: "none",
         }}
       >
-        CHATTER
+        CHAT
       </Typography>
     </>
   );
